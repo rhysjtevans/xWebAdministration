@@ -32,7 +32,6 @@ function Get-TargetResource
         [System.String] $WebsitePath,
 
         [parameter(Mandatory = $true)]
-        [ValidateSet('AppSettings')]
         [System.String] $ConfigSection,
 
         [parameter(Mandatory = $true)]
@@ -95,7 +94,6 @@ function Set-TargetResource
         [System.String] $WebsitePath,
 
         [parameter(Mandatory = $true)]
-        [ValidateSet('AppSettings')]
         [System.String] $ConfigSection,
 
         [parameter(Mandatory = $true)]
@@ -181,7 +179,6 @@ function Test-TargetResource
         [System.String] $WebsitePath,
 
         [parameter(Mandatory = $true)]
-        [ValidateSet('AppSettings')]
         [System.String] $ConfigSection,
 
         [parameter(Mandatory = $true)]
